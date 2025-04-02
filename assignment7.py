@@ -50,7 +50,7 @@ def update_map(selected_country):
         locationmode='country names',
         color='Wins',
         hover_name='Country',
-        color_continuous_scale='Viridis',
+        color_continuous_scale='Greens',
         title='World Cup Wins by Country (choropleth-map)'
     )
     figure.update_layout(margin={"r": 0, "t": 50, "l": 0, "b": 0})
